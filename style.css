@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef8ee;
+    text-align:center;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:30px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:40px;
+}
+
+#arvore{
+    font-size:120px;
+    margin:30px 0;
+    transition:0.5s;
+}
+
+button{
+    padding:15px 25px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    background:#4caf50;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+#mensagem{
+    margin-top:30px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
